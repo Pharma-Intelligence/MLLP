@@ -1,25 +1,20 @@
 {
-    "name": "pharmaintelligence/mllp",
-    "type": "library",
-    "description": "PHP MLLP Server & Client. Based on ReaktPHP.",
-    "keywords": ["hl7", "mll"],
-    "homepage": "https://github.com/linde002/MLLP/",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Robert van der Linde",
-            "homepage": "http://pharma-intelligence.nl",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "react/react": "0.4.*",
-        "pharmaintelligence/hl7": "dev-master"
-    },
-    "autoload": {
-        "classmap": [
-            "./src/"
-        ]
-    }
+  "name" : "pharmaintelligence/mllp",
+  "description" : "PHP MLLP Server & Client. Based on ReaktPHP.",
+  "require" : {
+    "php" : ">=5.4.0",
+    "react/react" : "0.4.*"
+  },
+  "authors" : [ {
+    "name" : "Robert van der Linde",
+    "homepage" : "http://pharma-intelligence.nl",
+    "role" : "Developer"
+  } ],
+  "keywords" : [ "hl7", "mll" ],
+  "autoload" : {
+    "classmap" : [ "./src/" ]
+  },
+  "license" : "MIT",
+  "type" : "library",
+  "homepage" : "https://github.com/linde002/MLLP/"
 }
