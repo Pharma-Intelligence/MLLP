@@ -1,2 +1,2 @@
-# HL7
-HL7 Parsing library for PHP
+# MLLP
+MLLP Server implementation in PHP
