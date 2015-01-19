@@ -50,7 +50,7 @@ $server->on('data', function($data) use($logging)  {
 $server->on('data', function ($data, ConnectionInterface $connection) use($server) {
     // $data contains a HL7 Payload
     // Parse HL7 and create an ACK message
-    $ack = 'A_ACK_STRING';
+    $ack = 'AN_ACK_STRING';
     $server->send($ack, $connection);
     $connection->end();
 });
