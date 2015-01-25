@@ -40,5 +40,3 @@ class Client extends EventEmitter implements EventEmitterInterface
         });
     }
 }
-
-?>

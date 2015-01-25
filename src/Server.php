@@ -48,4 +48,3 @@ abstract class Server extends EventEmitter implements EventEmitterInterface
     }
 }
 
-?>
